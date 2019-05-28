@@ -1,0 +1,17 @@
+<html>           
+<head>
+        <title>Edit Brand Page</title>
+</head>
+<body>
+  <p>To edit your brand's location, fill out the form below.</p>
+    <form action = "/~ssmith/cgi-bin/editBrand.py" method = "post">
+      Brand Code: <input type = "text" name = "brand_id"><br />
+      New Location: <input type = "text" name = "location"><br/>
+      <input type = "submit" value = "Submit" /><br/>
+      <br/>
+      If you'd like to delete a brand, type in the brand code: <input type = "text" name = "delete_brand"><br/>
+      If you'd like to delete a product, type in the product ID: <input type = "text" name = "prod_id"><br/>
+       <input type = "submit" value = "Submit" />
+    </form>
+</body>
+</html>
