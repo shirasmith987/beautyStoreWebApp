@@ -1,0 +1,19 @@
+<html>
+<head>
+        <title>Add Product Page</title>
+</head>
+<body>
+  <h1>Welcome Retailers!</h1>
+  <p>Please enter the following information to add a product to our store.
+    If your brand is already in our system, we already have your information!</p>
+  <form action = "/~ssmith/cgi-bin/addProduct.py" method = "post">
+      Product Name: <input type = "text" name = "product_name"><br />
+      Price: <input type = "text" name = "price"><br/>
+      Inventory: <input type = "text" name = "inventory"><br />
+      Brand Name: <input type= "text" name="brand_name"><br/>
+      Brand Code: <input type = "text" name = "brand_id"><br/>
+      Brand Location: <input type = "text" name = "location"><br/>
+      <input type = "submit" value = "Submit" />
+    </form>
+</body>
+</html>
