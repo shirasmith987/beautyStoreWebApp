@@ -1,0 +1,16 @@
+<html>
+<head>
+        <title>Return Product Page</title>
+</head>
+<body>
+    <p>To return your purchase, fill out the form below. (You can find your sale ID number in your confirmation email.)</p>
+    <form action = "/~ssmith/cgi-bin/returnProduct.py" method = "post">
+      First Name: <input type = "text" name = "first_name"><br />
+      Last Name: <input type = "text" name = "last_name"><br/>
+      Sale ID Number: <input type = "text" name = "saleID"><br/>
+      If you bought more than one of this item in this sale, how many of them would you like to return: <input type="text" name="quantity"><br/>
+      Reason for Return: <input type = "text" name = "reason"><br/>
+      <input type = "submit" value = "Submit" />
+    </form>
+</body>
+</html>
